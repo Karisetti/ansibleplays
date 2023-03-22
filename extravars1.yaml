@@ -8,7 +8,7 @@
     package: 
       name: "{{ package2 }}"
       state: present
-  - name: installing haproxy package3
+  - name: installing package3
     package: 
       name: "{{ package3 }}"
       state: present
